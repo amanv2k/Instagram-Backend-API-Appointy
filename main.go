@@ -174,12 +174,4 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-
-	// ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
-	// defer cancel()
-	// client, err := mongo.Connect(ctx, options.Client().ApplyURI("mongodb+srv://brianv2k:<password>@ig-api.xw8fz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"))
-	// err := http.ListenAndServe(":8080", nil)
-	// 	if err != nil {
-	// 		panic(err)
-	// 	}
 }
