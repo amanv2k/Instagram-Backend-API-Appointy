@@ -5,7 +5,8 @@ Git repository for appointy TECH task
 ## Run
 Run server with login credentials as a env variables
 
-```USER_EMAIL=test USER_PW=test go run main.go
+```
+USER_EMAIL=test USER_PW=test go run main.go
 curl localhost:8080/user -u test:test
 ```
 
